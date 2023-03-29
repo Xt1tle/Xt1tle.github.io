@@ -1,0 +1,125 @@
+.standtex{
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	text-indent: 40px;
+	text-align: center;
+}
+.standtex2{
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 30px;
+}
+.standtex3{
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 25px;
+}
+.standtex4{
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	text-align:center;
+}
+.circle{
+	list-style-type: circle;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 35px;
+}
+.minih{
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 35px;
+}
+.standh{
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 50px;
+}
+.standtexwitchind{
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	text-indent: 60px;
+}
+.standbord{
+	border-style: ridge;
+	background-position: right, center;
+}
+.right{
+	text-align:right;
+}
+.notauto{
+	table-layout:fixed;
+}
+.rightimg{
+	float:right;
+	margin: 4px 10px 2px 0px;
+}
+body{
+	background-image: url("Background.jpg");
+	background-attachment: fixed;
+}
+.slide-container {
+  left: 0;
+  position: fixed;
+  top: 60px;
+}
+
+.slide-container .slide {
+  background-image: url("ButtonBG1.jpg");
+  border: solid black;
+  border-width: 2px 2px 2px 0;
+  background-attachment: fixed;
+  position: absolute;
+  color: #fff;
+  height: 48px;
+  line-height: 48px;
+  margin: 16px 0 0 -170px;
+  position: relative;
+  text-align: center;
+  width: 200px;
+  -moz-transition: margin 1s;
+  -o-transition: margin 1s;
+  -webkit-transition: margin 1s;
+  transition: margin 1s;
+}
+
+.slide-container .slide:hover {
+  margin-left: 0;
+}
+
+.slide-container .slide .slide-content {
+  float: left;
+  width: 170px;
+}
+
+.slide-container .slide .slide-header {
+  float: left;
+  width: 30px;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.slide-container .slide:hover .slide-header {
+  opacity: 0;
+}
+.sitename {
+	position: fixed; 
+	text-align: center;
+	left: 0; right: 0; 
+	top: 0; 
+	padding: 10px; 
+	background-image: url("ButtonBG1.jpg");
+	background-size: 1550px 100px;
+	color: black; 
+	margin: 0;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 50px;
+
+}
